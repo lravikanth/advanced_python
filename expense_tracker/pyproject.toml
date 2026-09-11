@@ -1,0 +1,12 @@
+[project]
+name = "expense-tracker"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "tax-calulation",
+]
+
+[tool.uv.sources]
+tax-calulation = { workspace = true }
